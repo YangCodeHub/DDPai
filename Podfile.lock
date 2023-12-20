@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.8.1)
+  - KakaJSON (1.1.2)
+  - Kingfisher (7.10.0)
+  - MJRefresh (3.7.6)
+  - SwiftLint (0.53.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - KakaJSON (~> 1.1.2)
+  - Kingfisher
+  - MJRefresh
+  - SwiftLint (= 0.53.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KakaJSON
+    - Kingfisher
+    - MJRefresh
+    - SwiftLint
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
+  Kingfisher: a18f05d3b6d37d8650ee4a3e61d57a28fc6207f6
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  SwiftLint: 5ce4d6a8ff83f1b5fd5ad5dbf30965d35af65e44
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: ef9f93bfeb820b738ee1d20cf9daee57185b52f4
+
+COCOAPODS: 1.14.3

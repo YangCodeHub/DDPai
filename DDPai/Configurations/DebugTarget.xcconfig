@@ -1,0 +1,5 @@
+#include "Pods/Target Support Files/Pods-DDPai/Pods-DDPai.debug.xcconfig"
+#include "BaseTarget.xcconfig"
+
+TARGET_NAME = $(inherited) α
+PRODUCT_BUNDLE_IDENTIFIER = com.yang.DDPai.development

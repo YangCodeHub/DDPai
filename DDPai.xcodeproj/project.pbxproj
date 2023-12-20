@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240FF357D6F1A4C7F4C939B5 /* Pods_DDPai_DDPaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C9EBEACCD85BD508266940 /* Pods_DDPai_DDPaiUITests.framework */; };
+		344E7C91ED3EFC8BCFA22451 /* Pods_DDPai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DFCF4919CCF975AD374079 /* Pods_DDPai.framework */; };
+		DF6EF4FC2B3320500011129D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EF4FB2B3320500011129D /* TabBarController.swift */; };
 		DF719C152B187C0900073477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF719C142B187C0900073477 /* AppDelegate.swift */; };
 		DF719C172B187C0900073477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF719C162B187C0900073477 /* SceneDelegate.swift */; };
 		DF719C192B187C0900073477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF719C182B187C0900073477 /* ViewController.swift */; };
-		DF719C1C2B187C0900073477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF719C1A2B187C0900073477 /* Main.storyboard */; };
 		DF719C1E2B187C0A00073477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF719C1D2B187C0A00073477 /* Assets.xcassets */; };
 		DF719C212B187C0A00073477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF719C1F2B187C0A00073477 /* LaunchScreen.storyboard */; };
 		DF719C2C2B187C0A00073477 /* DDPaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF719C2B2B187C0A00073477 /* DDPaiTests.swift */; };
 		DF719C362B187C0A00073477 /* DDPaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF719C352B187C0A00073477 /* DDPaiUITests.swift */; };
 		DF719C382B187C0A00073477 /* DDPaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF719C372B187C0A00073477 /* DDPaiUITestsLaunchTests.swift */; };
+		EB9A4C1AF86AF6110FB56319 /* Pods_DDPaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC2A9B47B94EE7914274774 /* Pods_DDPaiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +39,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF719C112B187C0900073477 /* DDPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BCC346D0A81E3B324E374E /* Pods-DDPai-DDPaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPai-DDPaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-DDPai-DDPaiUITests/Pods-DDPai-DDPaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		035ED47CEC89FF58E998B54D /* Pods-DDPaiTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPaiTests.appstore.xcconfig"; path = "Target Support Files/Pods-DDPaiTests/Pods-DDPaiTests.appstore.xcconfig"; sourceTree = "<group>"; };
+		0488F2778D07DD68D4C15F48 /* Pods-DDPai-DDPaiUITests.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPai-DDPaiUITests.internal.xcconfig"; path = "Target Support Files/Pods-DDPai-DDPaiUITests/Pods-DDPai-DDPaiUITests.internal.xcconfig"; sourceTree = "<group>"; };
+		04C6BD2874F5056DEDF1D939 /* Pods-DDPaiTests.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPaiTests.internal.xcconfig"; path = "Target Support Files/Pods-DDPaiTests/Pods-DDPaiTests.internal.xcconfig"; sourceTree = "<group>"; };
+		07C9EBEACCD85BD508266940 /* Pods_DDPai_DDPaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDPai_DDPaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A2C028AB9AB162016C8AB6 /* Pods-DDPaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPaiTests.debug.xcconfig"; path = "Target Support Files/Pods-DDPaiTests/Pods-DDPaiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15DFCF4919CCF975AD374079 /* Pods_DDPai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDPai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34673B648C38377FF4B6D3C7 /* Pods-DDPai.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPai.internal.xcconfig"; path = "Target Support Files/Pods-DDPai/Pods-DDPai.internal.xcconfig"; sourceTree = "<group>"; };
+		87DF8B1D165D51EC6624AB5A /* Pods-DDPai-DDPaiUITests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPai-DDPaiUITests.appstore.xcconfig"; path = "Target Support Files/Pods-DDPai-DDPaiUITests/Pods-DDPai-DDPaiUITests.appstore.xcconfig"; sourceTree = "<group>"; };
+		D0F8B4C1AFF2C5F5C79C908C /* Pods-DDPai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPai.debug.xcconfig"; path = "Target Support Files/Pods-DDPai/Pods-DDPai.debug.xcconfig"; sourceTree = "<group>"; };
+		DF0218FA224A30D1D580DA6A /* Pods-DDPai.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPai.appstore.xcconfig"; path = "Target Support Files/Pods-DDPai/Pods-DDPai.appstore.xcconfig"; sourceTree = "<group>"; };
+		DF6EF4FB2B3320500011129D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DF719C112B187C0900073477 /* DDPai α.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DDPai α.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF719C142B187C0900073477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF719C162B187C0900073477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DF719C182B187C0900073477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF719C1B2B187C0900073477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF719C1D2B187C0A00073477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF719C202B187C0A00073477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF719C222B187C0A00073477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,18 @@
 		DF719C312B187C0A00073477 /* DDPaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDPaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF719C352B187C0A00073477 /* DDPaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPaiUITests.swift; sourceTree = "<group>"; };
 		DF719C372B187C0A00073477 /* DDPaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF719C582B1887C300073477 /* BaseConfigurations.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseConfigurations.xcconfig; sourceTree = "<group>"; };
+		DF719C592B1887E700073477 /* CompilerAndLanguage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CompilerAndLanguage.xcconfig; sourceTree = "<group>"; };
+		DF719C5A2B18880200073477 /* SDKAndDeviceSupport.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SDKAndDeviceSupport.xcconfig; sourceTree = "<group>"; };
+		DF719C5B2B18883C00073477 /* BaseProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseProject.xcconfig; sourceTree = "<group>"; };
+		DF719C5C2B18885200073477 /* DebugProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugProject.xcconfig; sourceTree = "<group>"; };
+		DF719C5D2B18885E00073477 /* InternalProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = InternalProject.xcconfig; sourceTree = "<group>"; };
+		DF719C5E2B18886D00073477 /* AppStoreProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppStoreProject.xcconfig; sourceTree = "<group>"; };
+		DF719C5F2B18889900073477 /* BaseTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseTarget.xcconfig; sourceTree = "<group>"; };
+		DF719C602B1888A900073477 /* DebugTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugTarget.xcconfig; sourceTree = "<group>"; };
+		DF719C612B1888B600073477 /* InternalTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = InternalTarget.xcconfig; sourceTree = "<group>"; };
+		DF719C622B1888C300073477 /* AppStoreTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppStoreTarget.xcconfig; sourceTree = "<group>"; };
+		EAC2A9B47B94EE7914274774 /* Pods_DDPaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDPaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				344E7C91ED3EFC8BCFA22451 /* Pods_DDPai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9A4C1AF86AF6110FB56319 /* Pods_DDPaiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240FF357D6F1A4C7F4C939B5 /* Pods_DDPai_DDPaiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B714AEC2BED233E2D38EE918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15DFCF4919CCF975AD374079 /* Pods_DDPai.framework */,
+				07C9EBEACCD85BD508266940 /* Pods_DDPai_DDPaiUITests.framework */,
+				EAC2A9B47B94EE7914274774 /* Pods_DDPaiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D035FA5F3623FE4A574BD9F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87DF8B1D165D51EC6624AB5A /* Pods-DDPai-DDPaiUITests.appstore.xcconfig */,
+				02BCC346D0A81E3B324E374E /* Pods-DDPai-DDPaiUITests.debug.xcconfig */,
+				0488F2778D07DD68D4C15F48 /* Pods-DDPai-DDPaiUITests.internal.xcconfig */,
+				DF0218FA224A30D1D580DA6A /* Pods-DDPai.appstore.xcconfig */,
+				D0F8B4C1AFF2C5F5C79C908C /* Pods-DDPai.debug.xcconfig */,
+				34673B648C38377FF4B6D3C7 /* Pods-DDPai.internal.xcconfig */,
+				035ED47CEC89FF58E998B54D /* Pods-DDPaiTests.appstore.xcconfig */,
+				15A2C028AB9AB162016C8AB6 /* Pods-DDPaiTests.debug.xcconfig */,
+				04C6BD2874F5056DEDF1D939 /* Pods-DDPaiTests.internal.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF719C082B187C0900073477 = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +138,15 @@
 				DF719C2A2B187C0A00073477 /* DDPaiTests */,
 				DF719C342B187C0A00073477 /* DDPaiUITests */,
 				DF719C122B187C0900073477 /* Products */,
+				D035FA5F3623FE4A574BD9F9 /* Pods */,
+				B714AEC2BED233E2D38EE918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DF719C122B187C0900073477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF719C112B187C0900073477 /* DDPai.app */,
+				DF719C112B187C0900073477 /* DDPai α.app */,
 				DF719C272B187C0A00073477 /* DDPaiTests.xctest */,
 				DF719C312B187C0A00073477 /* DDPaiUITests.xctest */,
 			);
@@ -99,13 +156,14 @@
 		DF719C132B187C0900073477 /* DDPai */ = {
 			isa = PBXGroup;
 			children = (
+				DF719C542B18875E00073477 /* Configurations */,
+				DF719C1D2B187C0A00073477 /* Assets.xcassets */,
+				DF719C222B187C0A00073477 /* Info.plist */,
+				DF719C1F2B187C0A00073477 /* LaunchScreen.storyboard */,
 				DF719C142B187C0900073477 /* AppDelegate.swift */,
 				DF719C162B187C0900073477 /* SceneDelegate.swift */,
+				DF6EF4FB2B3320500011129D /* TabBarController.swift */,
 				DF719C182B187C0900073477 /* ViewController.swift */,
-				DF719C1A2B187C0900073477 /* Main.storyboard */,
-				DF719C1D2B187C0A00073477 /* Assets.xcassets */,
-				DF719C1F2B187C0A00073477 /* LaunchScreen.storyboard */,
-				DF719C222B187C0A00073477 /* Info.plist */,
 			);
 			path = DDPai;
 			sourceTree = "<group>";
@@ -127,6 +185,48 @@
 			path = DDPaiUITests;
 			sourceTree = "<group>";
 		};
+		DF719C542B18875E00073477 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				DF719C552B18877200073477 /* Shared */,
+				DF719C562B18878000073477 /* Project */,
+				DF719C572B18879100073477 /* Target */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		DF719C552B18877200073477 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DF719C582B1887C300073477 /* BaseConfigurations.xcconfig */,
+				DF719C592B1887E700073477 /* CompilerAndLanguage.xcconfig */,
+				DF719C5A2B18880200073477 /* SDKAndDeviceSupport.xcconfig */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		DF719C562B18878000073477 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				DF719C5B2B18883C00073477 /* BaseProject.xcconfig */,
+				DF719C5C2B18885200073477 /* DebugProject.xcconfig */,
+				DF719C5D2B18885E00073477 /* InternalProject.xcconfig */,
+				DF719C5E2B18886D00073477 /* AppStoreProject.xcconfig */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		DF719C572B18879100073477 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				DF719C5F2B18889900073477 /* BaseTarget.xcconfig */,
+				DF719C602B1888A900073477 /* DebugTarget.xcconfig */,
+				DF719C612B1888B600073477 /* InternalTarget.xcconfig */,
+				DF719C622B1888C300073477 /* AppStoreTarget.xcconfig */,
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF719C3B2B187C0A00073477 /* Build configuration list for PBXNativeTarget "DDPai" */;
 			buildPhases = (
+				6E4F2A9783B5591D6131E6CE /* [CP] Check Pods Manifest.lock */,
 				DF719C0D2B187C0900073477 /* Sources */,
+				DF54A78A2B18A2EC0084EDF5 /* Run SwiftLint */,
 				DF719C0E2B187C0900073477 /* Frameworks */,
 				DF719C0F2B187C0900073477 /* Resources */,
+				98382FB0405960FB34DFFDAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,13 +247,14 @@
 			);
 			name = DDPai;
 			productName = DDPai;
-			productReference = DF719C112B187C0900073477 /* DDPai.app */;
+			productReference = DF719C112B187C0900073477 /* DDPai α.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DF719C262B187C0A00073477 /* DDPaiTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF719C3E2B187C0A00073477 /* Build configuration list for PBXNativeTarget "DDPaiTests" */;
 			buildPhases = (
+				D05CA0B5093686385BAFA601 /* [CP] Check Pods Manifest.lock */,
 				DF719C232B187C0A00073477 /* Sources */,
 				DF719C242B187C0A00073477 /* Frameworks */,
 				DF719C252B187C0A00073477 /* Resources */,
@@ -169,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF719C412B187C0A00073477 /* Build configuration list for PBXNativeTarget "DDPaiUITests" */;
 			buildPhases = (
+				789447A21895AE78A06030F3 /* [CP] Check Pods Manifest.lock */,
 				DF719C2D2B187C0A00073477 /* Sources */,
 				DF719C2E2B187C0A00073477 /* Frameworks */,
 				DF719C2F2B187C0A00073477 /* Resources */,
+				FFEEC8CF72A92200C9AC1F2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +337,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF719C212B187C0A00073477 /* LaunchScreen.storyboard in Resources */,
 				DF719C1E2B187C0A00073477 /* Assets.xcassets in Resources */,
-				DF719C1C2B187C0900073477 /* Main.storyboard in Resources */,
+				DF719C212B187C0A00073477 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +358,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E4F2A9783B5591D6131E6CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDPai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789447A21895AE78A06030F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDPai-DDPaiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98382FB0405960FB34DFFDAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDPai/Pods-DDPai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDPai/Pods-DDPai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDPai/Pods-DDPai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05CA0B5093686385BAFA601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDPaiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF54A78A2B18A2EC0084EDF5 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		FFEEC8CF72A92200C9AC1F2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDPai-DDPaiUITests/Pods-DDPai-DDPaiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DDPai-DDPaiUITests/Pods-DDPai-DDPaiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DDPai-DDPaiUITests/Pods-DDPai-DDPaiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF719C0D2B187C0900073477 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF719C192B187C0900073477 /* ViewController.swift in Sources */,
 				DF719C152B187C0900073477 /* AppDelegate.swift in Sources */,
+				DF6EF4FC2B3320500011129D /* TabBarController.swift in Sources */,
 				DF719C172B187C0900073477 /* SceneDelegate.swift in Sources */,
+				DF719C192B187C0900073477 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +524,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF719C1A2B187C0900073477 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF719C1B2B187C0900073477 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF719C1F2B187C0A00073477 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -318,6 +537,7 @@
 /* Begin XCBuildConfiguration section */
 		DF719C392B187C0A00073477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF719C5C2B18885200073477 /* DebugProject.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -368,7 +588,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -379,8 +598,9 @@
 			};
 			name = Debug;
 		};
-		DF719C3A2B187C0A00073477 /* Release */ = {
+		DF719C3A2B187C0A00073477 /* Internal */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF719C5D2B18885E00073477 /* InternalProject.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -425,7 +645,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -433,66 +652,77 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Internal;
 		};
 		DF719C3C2B187C0A00073477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF719C602B1888A900073477 /* DebugTarget.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7WVUN25K58;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = MAECTXJ42A;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DDPai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yang.DDPai;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		DF719C3D2B187C0A00073477 /* Release */ = {
+		DF719C3D2B187C0A00073477 /* Internal */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF719C612B1888B600073477 /* InternalTarget.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7WVUN25K58;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = MAECTXJ42A;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DDPai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yang.DDPai;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Release;
+			name = Internal;
 		};
 		DF719C3F2B187C0A00073477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A2C028AB9AB162016C8AB6 /* Pods-DDPaiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,8 +741,9 @@
 			};
 			name = Debug;
 		};
-		DF719C402B187C0A00073477 /* Release */ = {
+		DF719C402B187C0A00073477 /* Internal */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C6BD2874F5056DEDF1D939 /* Pods-DDPaiTests.internal.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,10 +760,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDPai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DDPai";
 			};
-			name = Release;
+			name = Internal;
 		};
 		DF719C422B187C0A00073477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02BCC346D0A81E3B324E374E /* Pods-DDPai-DDPaiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,8 +781,9 @@
 			};
 			name = Debug;
 		};
-		DF719C432B187C0A00073477 /* Release */ = {
+		DF719C432B187C0A00073477 /* Internal */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0488F2778D07DD68D4C15F48 /* Pods-DDPai-DDPaiUITests.internal.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,7 +798,136 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DDPai;
 			};
-			name = Release;
+			name = Internal;
+		};
+		DF719C442B1884BB00073477 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF719C5E2B18886D00073477 /* AppStoreProject.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		DF719C452B1884BB00073477 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF719C622B1888C300073477 /* AppStoreTarget.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = MAECTXJ42A;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DDPai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AppStore;
+		};
+		DF719C462B1884BB00073477 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035ED47CEC89FF58E998B54D /* Pods-DDPaiTests.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WVUN25K58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.DDPaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDPai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DDPai";
+			};
+			name = AppStore;
+		};
+		DF719C472B1884BB00073477 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DF8B1D165D51EC6624AB5A /* Pods-DDPai-DDPaiUITests.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WVUN25K58;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.DDPaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DDPai;
+			};
+			name = AppStore;
 		};
 /* End XCBuildConfiguration section */
 
@@ -574,37 +936,41 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF719C392B187C0A00073477 /* Debug */,
-				DF719C3A2B187C0A00073477 /* Release */,
+				DF719C3A2B187C0A00073477 /* Internal */,
+				DF719C442B1884BB00073477 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DF719C3B2B187C0A00073477 /* Build configuration list for PBXNativeTarget "DDPai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF719C3C2B187C0A00073477 /* Debug */,
-				DF719C3D2B187C0A00073477 /* Release */,
+				DF719C3D2B187C0A00073477 /* Internal */,
+				DF719C452B1884BB00073477 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DF719C3E2B187C0A00073477 /* Build configuration list for PBXNativeTarget "DDPaiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF719C3F2B187C0A00073477 /* Debug */,
-				DF719C402B187C0A00073477 /* Release */,
+				DF719C402B187C0A00073477 /* Internal */,
+				DF719C462B1884BB00073477 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DF719C412B187C0A00073477 /* Build configuration list for PBXNativeTarget "DDPaiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF719C422B187C0A00073477 /* Debug */,
-				DF719C432B187C0A00073477 /* Release */,
+				DF719C432B187C0A00073477 /* Internal */,
+				DF719C472B1884BB00073477 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

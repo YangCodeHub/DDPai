@@ -1,0 +1,5 @@
+#include "Pods/Target Support Files/Pods-DDPai/Pods-DDPai.appstore.xcconfig"
+#include "BaseTarget.xcconfig"
+
+TARGET_NAME = $(inherited)
+PRODUCT_BUNDLE_IDENTIFIER = com.yang.DDPai

@@ -1,0 +1,11 @@
+//
+//  BaseConfigurations.xcconfig
+//  DDPai
+//
+//  Created by DDPai on 2023/11/30.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_BASE_URL = app.ddpai.com
