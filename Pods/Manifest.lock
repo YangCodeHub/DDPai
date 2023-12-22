@@ -1,16 +1,26 @@
 PODS:
   - Alamofire (5.8.1)
+  - DesignKit (1.0.0)
   - KakaJSON (1.1.2)
   - Kingfisher (7.10.0)
   - MJRefresh (3.7.6)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
   - SwiftLint (0.53.0)
   - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
+  - DesignKit (from `./Frameworks/DesignKit`)
   - KakaJSON (~> 1.1.2)
   - Kingfisher
   - MJRefresh
+  - RxCocoa (= 6.6.0)
+  - RxSwift (= 6.6.0)
   - SwiftLint (= 0.53.0)
   - SwiftyJSON
 
@@ -20,17 +30,29 @@ SPEC REPOS:
     - KakaJSON
     - Kingfisher
     - MJRefresh
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SwiftLint
     - SwiftyJSON
 
+EXTERNAL SOURCES:
+  DesignKit:
+    :inherit_warnings: false
+    :path: "./Frameworks/DesignKit"
+
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  DesignKit: fe695e68930c12276362af6e3a4debf9b64fcb35
   KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
   Kingfisher: a18f05d3b6d37d8650ee4a3e61d57a28fc6207f6
   MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
   SwiftLint: 5ce4d6a8ff83f1b5fd5ad5dbf30965d35af65e44
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: ef9f93bfeb820b738ee1d20cf9daee57185b52f4
+PODFILE CHECKSUM: 5d16a12fe9e260233308dc5328b18b683339566e
 
 COCOAPODS: 1.14.3

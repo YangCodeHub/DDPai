@@ -18,6 +18,14 @@ class TabBarController: UITabBarController {
         let mineVC = UIViewController()
         mineVC.title = "我"
         
+        if #available(iOS 15.0, *) {
+            let tabBarAppear = UITabBarAppearance()
+            tabBarAppear.backgroundColor = .white
+            tabBar.scrollEdgeAppearance = tabBarAppear
+        } else {
+            tabBar.backgroundColor = .white
+        }
+        
         self.addChild(UINavigationController(rootViewController: onRoadVC))
         self.addChild(UINavigationController(rootViewController: mineVC))
     }

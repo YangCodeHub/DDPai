@@ -1,0 +1,23 @@
+{
+  "name": "DesignKit",
+  "version": "1.0.0",
+  "summary": "DesignKit components",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YangCodeHub/DDPai",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yang": "yangchunsheng@ddpai.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "5.3",
+  "source_files": "src/**/*",
+  "swift_version": "5.3"
+}

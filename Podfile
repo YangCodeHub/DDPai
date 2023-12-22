@@ -11,7 +11,10 @@ target 'DDPai' do
   pod 'SwiftyJSON'
   pod 'MJRefresh'
   pod 'KakaJSON', '~> 1.1.2'
-  pod 'SwiftLint', '= 0.53.0', configurations: ['Debug'] #代码规范检查  
+  pod 'RxSwift', '6.6.0'
+  pod 'RxCocoa', '6.6.0'
+  pod 'SwiftLint', '= 0.53.0', configurations: ['Debug'] #代码规范检查
+  pod 'DesignKit', :path => './Frameworks/DesignKit', :inherit_warnings => false
 
   target 'DDPaiTests' do
     inherit! :search_paths
